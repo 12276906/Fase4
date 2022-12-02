@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="Encabezado">
+        <h1>
+            <center>Aprender HTML:Etiquetas semánticas, CSS Grid</center>
+        </h1></header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Index.html">INICIO</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Temas
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="Tema 1.html">Tema 1</a></li>
+                      <li><a class="dropdown-item" href="Tema 2.html">Tema 2</a></li>
+            
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Evaluación
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="Evaluacion 1.html">Evaluación 1</a></li>
+                      <li><a class="dropdown-item" href="Evaluacion 2.html">Evaluacion 2</a></li>
+                    </ul>
+                  </li>
+                  <a class="nav-link active" aria-current="page" href="Autor.html">Autor</a>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>      
+    <main class="Contenedor">
+        <aside class="Lateral">
+            <a class="twitter-timeline" data-height="450" data-theme="dark" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </aside>
+        <section class="Principal">
+            <Section>
+                <article>
+                    <h4> Etiquetas Semánticas</h4>
+                    <img src="Img/Semantica.jpg" alt="esta imagen representa las Etiquetas Semánticas">
+            
+                </article>
+                <p> 
+                  TEMA1: ETIQUETA SEMÁNTICAS:
+                  <p>En este artículo vamos a ver las <span class="resaltado">etiquetas semánticas</span> de HTML5, como HEADER, ARTICLE, SECTION, ASIDE, FOOTER, NAV, FIGURE, TIME, ...</p>
+                  <p>Lo primero que conviene remarcar es que HTML5 no es un lenguaje nuevo en contraposición a HTML, sino una <span class="resaltado">nueva versión</span> del mismo lenguaje. También hay que recordar que HTML5 incorpora cambios en profundidad que los navegadores antiguos no son capaces de mostrar, por lo tanto que hay que tener <span class="resaltado">actualizado</span> el navegador.</p>
+                  <p>Las etiquetas semánticas ayudan a definir la <span class="resaltado">estructura</span> del documento y permiten que las páginas web sean mejor <span class="resaltado">indexadas</span> por los buscadores.</p>
+                  <p>Una etiqueta se califica como semántica si tiene que ver el significado, es decir, si nos informa sobre lo que trata su  contenido. Por ejemplo, la etiqueta SECTION nos dice que contiene una sección o capítulo dentro de la página. Frente a las etiquetas semánticas tenemos otros tipos de etiquetas como las que afectan al formato, como UL, a multimedia, como VIDEO, etc.</p>
+                  <p>Antes de la existencia de las  etiquetas semánticas,  el contenido se estructuraba con etiquetas <span class="resaltado">DIV</span> que no aportaban ninguna información sobre el tema  que trataban, salvo que se añadiese aprovechando el valor dado a la propiedad ID, o  a la propiedad CLASS para hacer referencia a su contenido.</p>
+                  <p>Las etiquetas a las que vamos a prestar más atención en este artículo son  las que definen la <span class="resaltado">estructura general</span> del sitio ( HEADER, ARTICLE, SECTION, ASIDE, FOOTER, NAV ) aunque también existen otra nuevas etiquetas semánticas que señalan <span class="resaltado">elementos concretos</span> de la página como la etiqueta FIGURE, para imágenes y gráficos, la etiqueta FIGCAPTION, que es un pie de imagen, la etiqueta TIME para definir fechas y horas, también MAIN, MARK, SUMARY Y DETAILS.</p> 
+                </p>
+             <h2>Bibliografia: https://www.aulaclic.es/articulos/html5-semantica_1.html</h2>
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </main>
+    
+    <footer class="Pie">
+        <center>
+        <p>Correo Electronico: 3475@gmail.com</p>
+        <p>skype: Nelson</p> 
+        25 de Octubre del 2022
+        
+    </center>
+    </footer>
+        </body>
+</html>

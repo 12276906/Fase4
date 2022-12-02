@@ -1,0 +1,70 @@
+.Encabezado{
+    background-color: #064663;
+    padding: 30px;
+}
+.Navegacion{
+    background-color: #041C32;
+    padding: 30px;
+}
+.Contenedor{
+    background-color: blueviolet;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+.Principal{
+    background-color: #ECB365;
+    padding: 30px;
+    grid-column: 2/5;
+}
+.Lateral{
+    background-color: #064663;
+    padding: 30px;
+    grid-column: 1/2;
+}
+.Pie{
+    color: #F3D6D6;
+    background-color: #041C32;
+    padding: 30px;
+}
+@media (max-width: 952px){
+    .enlace{
+        padding-left: 20px;  
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 858px){
+    .checkbtn {
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #F3D6D6;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition:  all .5s;
+    }
+    na ul li{
+        display: block;
+        margin: 50 px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a.hover, li a.action{
+        background: none;
+        color: #041C32;
+
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
